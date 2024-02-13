@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
 class StyledText extends StatelessWidget {
-  const StyledText(this.intext,
-      {super.key}); //OUT is our variable, IN is the parameter
-  final String
-      intext; //made it final so the variable argument which is assigned won't change inside this class
+  const StyledText(this.intext, {super.key});
+  final String intext;
   @override
   Widget build(BuildContext context) {
     return Text(
