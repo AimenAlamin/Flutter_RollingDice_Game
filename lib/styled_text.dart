@@ -9,7 +9,7 @@ class StyledText extends StatelessWidget {
       intext,
       style: const TextStyle(
         color: Color.fromARGB(255, 248, 248, 248),
-        fontSize: 30.0,
+        fontSize: 20.0,
         fontWeight: FontWeight.bold,
       ),
     );
