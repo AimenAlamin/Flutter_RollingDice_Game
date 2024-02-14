@@ -7,9 +7,8 @@ void main() {
       home: Scaffold(
         body: MyDesingBox(
           incolors: [
-            Colors.black,
-            Colors.black,
-            Colors.yellow,
+            Color.fromARGB(255, 10, 101, 237),
+            Color.fromARGB(255, 81, 20, 250),
           ],
         ),
       ),

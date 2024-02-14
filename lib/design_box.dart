@@ -18,8 +18,28 @@ class MyDesingBox extends StatelessWidget {
           end: endmyflag,
         ),
       ),
-      child: const Center(
-        child: StyledText("ITTIHAD JEDDAH"), //we can change text from here
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset('assests/images/dice-2.png', width: 200),
+            //sizedbox widget can be used alternatively of padding
+            const SizedBox(
+              height: 30.5,
+            ),
+            TextButton(
+              onPressed: () {},
+              style: TextButton.styleFrom(
+                backgroundColor: const Color.fromARGB(170, 5, 5, 5),
+                fixedSize: const Size(100, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(150.5),
+                ),
+              ),
+              child: const StyledText("Flip"),
+            ),
+          ],
+        ),
       ),
     );
   }
