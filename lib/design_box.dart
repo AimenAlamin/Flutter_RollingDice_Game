@@ -13,9 +13,8 @@ class MyDesingBox extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Dice Roller"),
-        backgroundColor: const Color.fromARGB(255, 12, 92, 212),
+        backgroundColor: const Color.fromARGB(255, 44, 5, 74),
         foregroundColor: Colors.white,
-        elevation: 0,
         centerTitle: true,
       ),
       body: Container(
